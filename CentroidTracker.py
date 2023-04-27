@@ -2,7 +2,7 @@ from scipy.spatial import distance as dist
 from collections import OrderedDict
 import numpy as np
 
-
+# https://pyimagesearch.com/2018/07/23/simple-object-tracking-with-opencv/
 class CentroidTracker:
 	def __init__(self, maxDisappeared=50, maxDistance=50):
 		# initialize the next unique object ID along with two ordered
